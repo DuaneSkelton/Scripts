@@ -1,0 +1,11 @@
+{ 
+	"memory":[
+		{ "address":"0xC0000000", "access":"e", "label":"TEXT", "commentary":"Whatever", "length":"1m" },
+		{ "address":"0x01c42000", "access":"rw", "label":"UART0", "commentary":"Am1808 UART0 register space", "length":"16k" }
+	],
+
+	"objects":[
+		{ "address":"0xc0055cb8", "access":"e", "label":"initialize_chip()", "commentary":"Chip initialization" },
+		{ "address":"0x01c42000", "access":"rw", "label":"UART0.RX", "commentary":"Am1808 UART0 RX register" }
+	]
+}
